@@ -38,6 +38,7 @@ These functions are particularly useful for apps deployed on Dash Enterprise whe
 
 ### Fixed
 - [#1037](https://github.com/plotly/dash/pull/1037) Fix no_update test to allow copies, such as those stored and retrieved from a cache.
+- [#1080](https://github.com/plotly/dash/pull/1080) Disable cookie access when Dash is used within iframes that limit access to persistent browser storage via the sandbox attribute
 
 ## [1.7.0] - 2019-11-27
 ### Added
